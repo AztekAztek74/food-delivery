@@ -1,0 +1,65 @@
+[
+    {
+        "id": "pizza-pepperoni",
+        "name": "Пепперони",
+        "images": "https://img05.rl0.ru/eda/c620x415i/s2.eda.ru/StaticContent/Photos/120131085053/171027192707/p_O.jpg",
+        "tags": ["acute", "popular"],
+        "description": "Пепперони — острая разновидность салями итало-американского происхождения.",
+        "size":{
+            "small": [400, 350],
+            "standart": [650, 600],
+            "big": [1000, 900]
+        }
+    },
+
+    {
+        "id": "pizza-margarita",
+        "name": "Маргарита",
+        "images": "https://gogol-mogol.su/uploads/posts/2016-06/1464795275_picca.jpg",
+        "tags": ["popular"],
+        "description": "Пицца Маргарита — традиционная итальянская пицца, пожалуй, самая популярная в мире. Состав этой пиццы необычайно прост, её основные ингредиенты: сыр моцарелла, спелые помидоры и листья свежего базилика, которые придают ей неповторимый вкус и аромат.",
+        "size":{
+            "small": [400, 330],
+            "standart": [650, 580],
+            "big": [1000, 850]
+        }
+    },
+
+    {
+        "id": "pizza-four-cheeses",
+        "name": "Четыре сыра",
+        "images": "https://vilkin.pro/wp-content/uploads/2019/11/picca-chetire-sira-770x513.jpg",
+        "tags": ["popular"],
+        "description": "Идеальное сочетание идеальных сыров Моцарелла, Дор-Блю, Чеддер и Эмменталь.",
+        "size":{
+            "small": [400, 450],
+            "standart": [650, 700],
+            "big": [1000, 1100]
+        }
+    },
+
+    {
+        "id": "pizza-calzones",
+        "name": "Кальцоне",
+        "images": "https://images.cdn.inmyroom.ru/inmyroom/thumb/620x398/jpg:85/uploads/food_recipe/teaser/03/0313/jpg_1000_03138a5a-9621-4623-873b-1a012654beb8.jpg?sign=5f2a23b5cab74c94ea741fb6152f171309193000ee98d407487dac308b19d536",
+        "tags": ["closed"],
+        "description": "Закрытая пицца кальцоне готовится в форме полумесяца. Мы предлагаем вариант с курицей, сыром и овощами.",
+        "size":{
+            "small": [300, 300],
+            "standart": [600, 580]
+        }
+    },
+    
+    {
+        "id": "pizza-diablo",
+        "name": "Дьябло",
+        "images": "https://i.ollis.ru/u/5822d320.jpg",
+        "tags": ["acute"],
+        "description": "Уникальное сочетание перчиков халапеньо и острой колбасы пепперони делает это блюдо хитом среди любителей острого.",
+        "size":{
+            "small": [400, 400],
+            "standart": [650, 600],
+            "big": [1000, 950]
+        }
+    }
+]

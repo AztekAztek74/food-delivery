@@ -1,0 +1,86 @@
+@import '../../constants/scss/const';
+
+.food-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    row-gap: 5vh;
+    justify-content: space-around;
+    
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5%;
+    border: $border__product-card 1px solid;
+    border-radius: 10px;
+
+    &:hover{
+        box-shadow: 0 0 10px $border__product-card_shadow;
+    }
+
+
+    &__wrapper-img{
+        position: relative;
+    }
+
+    &__img{
+        height: 200px;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    &__tags-block{
+        position: absolute;
+        z-index: 100;
+    }
+
+    &__wrapper-information{
+        margin-top: 5px;
+        min-height: 250px;
+
+        @media (max-width: 761px){
+            &{
+                min-height: auto;
+            }
+        }
+    }
+
+    &__header{
+        @extend %fonts__product-card__header;
+    }
+
+    &__description{
+        @extend %fonts__product-card__description;
+    }
+
+    &__price-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        @extend %fonts__product-card__price-block
+    }
+
+    &__price_selection{
+        color: $color__product-card__price_selection;
+    }
+
+    &__weight_selection{
+        color: $color__product-card__weight_selection;
+    }
+
+    &__button{
+        border: none;
+        background-color: $button__product-card__button;
+        color: $color__product-card__button;
+        width: 100px;
+        transition: background-color .3s linear;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $button__product-card__button_hover;
+            transition: background-color .3s linear;
+        }
+    }
+}

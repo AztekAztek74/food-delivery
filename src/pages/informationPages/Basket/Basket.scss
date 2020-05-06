@@ -1,0 +1,51 @@
+@import '../../../constants/scss/const';
+
+.basket{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__header{
+        @extend %fonts__basket__header;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__empty{
+        @extend %fonts__basket__empty;
+    }
+
+    &__button-group{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button{
+        border: none;
+        width: 230px;
+        cursor: pointer;
+        border-radius: 3px;
+
+        @media(max-width:480px){
+            &{
+                width: auto
+            }
+        }
+
+        &-reset{
+            background-color: $button__basket__button-reset;
+            color: $text__basket__button-reset;
+        }
+
+        &-checkout{
+            background-color: $button__basket__button-checkout;
+            & a{
+                color: $text__basket__button-checkout;
+            }
+        }
+    }
+}

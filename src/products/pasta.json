@@ -1,0 +1,49 @@
+[
+    {
+        "id": "pasta-carbonara",
+        "name": "Карбонара",
+        "images": "https://vkuso.ru/data/pasta-karbonara-s-bekonom-v-slivkax.jpg",
+        "tags": ["popular"],
+        "description": "Паста Карбонара — спагетти с мелкими кусочками бекона, смешанные с соусом из яиц, сыра пармезан и пекорино романо, соли и свежемолотого чёрного перца. Этот соус доходит до полной готовности от тепла только что сваренной пасты.",
+        "size":{
+            "small": [150, 100],
+            "standart": [200, 130]
+        }
+    },
+
+    {
+        "id": "pasta-bolognese",
+        "name": "Болоньезе с острым соусом",
+        "images": "https://img01.rl0.ru/eda/1200x-i/s1.eda.ru/StaticContent/Photos/121017153819/190315152129/p_O.jpg",
+        "tags": ["acute"],
+        "description": "Паста Болонье́зе, Соус Болоньезе фр. Sauce bolognaise — итальянское блюдо, разновидность сервировки пасты, а также используемый при такой сервировке мясной соус.",
+        "size":{
+            "small": [150, 120],
+            "standart": [200, 160]
+        }
+    },
+
+    {
+        "id": "pasta-fetuccini-alfredo",
+        "name": "Фетучини Альфредо",
+        "images": "https://cdn.lifehacker.ru/wp-content/uploads/2018/03/fettuccine-alfredo_1522408505-e1522408530818-630x315.jpg",
+        "tags": ["seafood"],
+        "description": "Фетучини Альфредо — итальянское блюдо из пасты фетучини, смешанной со сливочным маслом и молодым сыром пармезан.",
+        "size":{
+            "small": [150, 80],
+            "standart": [200, 110]
+        }
+    },
+
+    {
+        "id": "pasta-mushrooms-spinach",
+        "name": "Паста с грибами и шпинатом",
+        "images": "https://img.povar.ru/main/c5/b0/f9/0a/pasta_s_lososem_gribami_i_shpinatom-480454.jpg",
+        "tags": [],
+        "description": "Паста со шпинатом и шампиньонами, приготовленными в винном соусе.",
+        "size":{
+            "small": [150, 150],
+            "standart": [200, 200]
+        }
+    }
+]

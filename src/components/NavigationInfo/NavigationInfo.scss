@@ -1,0 +1,107 @@
+@import '../../constants/scss/const';
+
+.navigation-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+
+    &__links-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 44px;
+        border-bottom: $border__navigation-info__links-block 1px solid;
+
+        & a{
+            text-align: center;
+            @extend %fonts__navigation-info__links;
+
+            &:hover{
+                color: $color__fonts__navigation-info__links_hover;
+            }
+        }
+    }
+
+    &__information-container{
+        display: flex;
+        width: 100%;
+        height: 156px;
+    }
+
+    &__information-block{
+        width: 33.333%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media(max-width:480px){
+            &{
+                width: 50%;
+            }
+        }
+        @media(max-width:360px){
+            &{
+                display: none;
+            }
+        }
+    }
+
+    &__work-hours{
+        @extend %fonts__navigation-info__work-hours;
+    }
+
+    &__address a{
+        @extend %fonts__navigation-info__address;
+
+        &:hover{
+            color: $color__fonts__navigation-info__address-text;
+        }
+
+    }
+
+    &__logo-block{
+        width: 33.333%;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        @media(max-width:480px){
+            &{
+                display: none;
+            }
+        }
+    }
+    
+    &__basket{
+        width: 33.333%;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        @media(max-width:480px){
+            &{
+                width: 50%;
+            }
+        }
+        @media(max-width:360px){
+            &{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        & .anticon{
+            font-size: 60px;
+            color: $color__fonts__navigation-info__basket;
+            transition: color .2s ease;
+
+            &:hover{
+                color: $color__fonts__navigation-info__basket_hover;
+                transition: color .2s ease;
+            }
+        }
+    }
+}

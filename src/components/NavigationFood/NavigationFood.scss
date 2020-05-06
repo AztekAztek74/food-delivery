@@ -1,0 +1,44 @@
+@import '../../constants/scss/const';
+
+.navigation-food{
+    height: 50px;
+    background: linear-gradient($background1__navigation-food, $background2__navigation-food );
+    padding: 0 10vh;
+    width: 100%;
+
+    @media (max-width: 480px){
+        &{
+            padding: 0 5vh;
+        }
+    }
+
+    &__links{
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item{
+        width: 33.333%;
+        text-align: center;
+        border-right: $border-right__navigation-food__link 1px solid;
+
+        &:last-child{
+            border-right: none;
+        }
+
+        & a{
+            @extend %fonts__navigation-food__link;
+            transition: color .2s ease;
+
+            &:hover{
+                color: $color__navigation-food__link_hover;
+                transition: color .2s ease;
+            }
+            &.active{
+                color: $color__navigation-food__link_hover;
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+        // colors
+
+    // NavigationInfo   
+$border__navigation-info__links-block: #a7a3a3;
+$color__fonts__navigation-info__links: #979797;
+$color__fonts__navigation-info__links_hover: #b10000;
+$color__fonts__navigation-info__work-hours: #979797;
+$color__fonts__navigation-info__address-text: #000000;
+$color__fonts__navigation-info__basket: #000000;
+$color__fonts__navigation-info__basket_hover: #d8d542;
+
+    //NavigationFood
+$background1__navigation-food: #f84040;
+$background2__navigation-food: #94b403;
+$color__navigation-food__link: #ffffff;
+$color__navigation-food__link_hover: #1f5709;
+$border-right__navigation-food__link: #ffffff;
+
+    // FoodList
+
+$border__product-card: #979797;
+$border__product-card_shadow: #979797;
+$color__product-card__header: #000000;
+$color__product-card__description: #979797;
+$color__product-card__price-block: #000000;
+$color__product-card__price_selection: #b40000;
+$color__product-card__weight_selection: #5dce00;
+$button__product-card__button: #ce0000;
+$button__product-card__button_hover: #ff3131;
+$color__product-card__button: #ffffff;
+
+    // Basket
+$color__basket__header: #000000;
+$color__basket__empty: #000000;
+$button__basket__button-reset: #b40000;
+$button__basket__button-checkout: #979797;
+$text__basket__button-reset: #ffffff;
+$text__basket__button-checkout: #1f5300;
+
+    // ProductLine
+$border__product-line: #979797;
+$color__product-line__title: #000000;
+$color__product-line__price-block: #000000;
+$color__product-line__weight_selection: #5dce00;
+$color__product-line__price_selection: #b40000;
+
+    // Checkout
+$color__checkout__header: #000000;
+$color__checkout__description: #979797;
+
+    // Contacts
+$color__contacts__info-description: #000000;
+$color__contacts__info-allocated: #000000;
+
+        // fonts
+
+    // NavigationInfo
+%fonts__navigation-info__links{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    color: $color__fonts__navigation-info__links;
+}
+
+%fonts__navigation-info__work-hours{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    color: $color__fonts__navigation-info__work-hours;
+}
+
+%fonts__navigation-info__address{
+    font-family: 'Girassol', cursive;
+    font-size: 13px;
+    color: $color__fonts__navigation-info__address-text;
+}
+
+    //NavigationFood
+%fonts__navigation-food__link{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: $color__navigation-food__link;
+    text-transform: uppercase;
+}
+
+    // FoodList
+%fonts__product-card__header{
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $color__product-card__header;
+}
+
+%fonts__product-card__description{
+    font-family: 'Girassol', cursive;
+    font-size: 13px;
+    color: $color__product-card__description
+}
+
+%fonts__product-card__price-block{
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    color: $color__product-card__price-block;
+}
+
+    // Basket
+
+%fonts__basket__header{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: $color__basket__header;
+}
+
+%fonts__basket__empty{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: $color__basket__header;
+}
+
+    // ProductLine
+
+%fonts__product-line__price-block{
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    color: $color__product-card__price-block;
+}
+
+    // Checkout
+%fonts__checkout__header{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: $color__checkout__header;
+}
+
+%fonts__checkout__description{
+    font-family: 'Girassol', cursive;
+    font-size: 13px;
+    color: $color__checkout__description;
+}
+
+    // Contacts
+%fonts__contacts__info-description{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: $color__contacts__info-description;
+}
+
+%fonts__contacts__info-allocated{
+    font-family: 'Girassol', cursive;
+    font-size: 16px;
+    color: $color__contacts__info-allocated;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "soup-italian-beef",
+        "name": "Итальянский суп с говядиной",
+        "images": "http://povarvdome.com/media/cache/a3/e9/a3e9094fa04275bdafd79ccbeb0b009d.jpg",
+        "tags": ["acute"],
+        "description": "Острый суп по итальянскому рецепту с перцем халапеньо.",
+        "size":{
+            "standart": [300, 280]
+        }
+    },
+
+    {
+        "id": "soup-bograch",
+        "name": "Суп-гуляш Бограч",
+        "images": "https://e1.edimdoma.ru/data/recipes/0006/9488/69488-ed4_wide.jpg?1483199224",
+        "tags": ["popular"],
+        "description": "Традиционное блюдо мадьярских скотоводов. Готовится на открытом огне в большом котле. Отличительная особенность бограча - это обилие паприки.",
+        "size":{
+            "standart": [300, 350]
+        }
+    },
+
+    {
+        "id": "soup-fresh",
+        "name": "Уха",
+        "images": "https://img05.rl0.ru/eda/1200x-i/s2.eda.ru/StaticContent/Photos/130508123453/130520130137/p_O.jpg",
+        "tags": ["seafood"],
+        "description": "Уха – традиционное и древнее блюдо, пришедшее из русской кухни. Этот суп полезен благодаря тому, что варится он на основе рыбы.",
+        "size":{
+            "standart": [300, 300]
+        }
+    }
+]
